@@ -1,3 +1,6 @@
+{% include nav.html %}  
+
+
 ### Menu 
 On the menu you can attach files to the commands like swap and swap.py
 <br>
