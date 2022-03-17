@@ -1,3 +1,4 @@
+{% include nav.html %}  
 You can make a list inside of a list by taking an item in the list and putting [] around it.  
 ![image](https://user-images.githubusercontent.com/89167167/158669032-20116708-3cde-4a4c-8326-c84354ceddc1.png)  
 <br>
