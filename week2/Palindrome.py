@@ -6,10 +6,14 @@ class Pal:
             return "is not a palindrome"
 
 
-print("no capital letters please")
-string = input("Type a word: ")
+x = 1
 
-obj = Pal()
-f = obj.palindrome(string)
+while x == 1:
+    print("no capital letters please")
+    string = input("Type a word: ")
 
-print(string, f)
+    obj = Pal()
+    f = obj.palindrome(string)
+
+    print(string, f)
+    x = int(input("Try again? 1 = yes, any other number = no:  "))
