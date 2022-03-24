@@ -9,5 +9,5 @@ class swap:
             ah = x
             return self, ah
 
-    a, b = yah(21, 16)
+    a, b = yah(int(input("Big number: ")), int(input("Small Num: ")))
     print(a, b)
