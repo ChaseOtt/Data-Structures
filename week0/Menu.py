@@ -4,27 +4,24 @@
 import time
 from Animation import *
 from Lists import tester, tester2, fibtester
-
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
-    ["Swap", "Swap.py"],
-    ["Matrix", "Matrix.py"],
+    
     ["Animation",animation],
-    ["Tree", "Tree.py"],
-]
+    
+    ]
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
-sub_menu = [
-    ["Factors", None],
-    ["GCD", None],
-    ["LCM", None],
-    ["Primes", None],
+math_sub_menu = [
+    ["Swap", "Swap.py"],
+    ["Matrix", "Matrix.py"],
+    ["Tree", "Tree.py"],
+    ["Palindrome", "Palindrome.py"],
 ]
-
 random_sub_menu = [
     ["Random1", None],
     ["Random2", None],
@@ -34,6 +31,8 @@ Lists_sub_menu = [
     ["Tester", tester],
     ["Factorial", tester2],
     ["Fibonacci", fibtester],
+    ["Oop Factorial", "Oop.py"],
+    ["Oop Fibonacci", "Oop2.py"],
 ]
 
 # Menu banner is typically defined by menu owner
@@ -48,20 +47,23 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Math", submenu])
     menu_list.append(["Random", Random_submenu])
+    menu_list.append(["Math", Math_submenu])
     menu_list.append(["Lists", Lists_submenu])
     buildMenu(title, menu_list)
 
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
-def submenu():
-    title = "Function Submenu" + banner
-    buildMenu(title, sub_menu)
+
 def Random_submenu():
     title = "Function Submenu" + banner
     buildMenu(title, random_sub_menu)
+  
+def Math_submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, math_sub_menu)
+  
 def Lists_submenu():
     title = "Function Submenu" + banner
     buildMenu(title, Lists_sub_menu)
