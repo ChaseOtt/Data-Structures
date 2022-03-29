@@ -7,9 +7,10 @@ class Factor:
         return f
 
 
-n = int(input("Enter a number: "))
-while n >= 1:
-    obj = Factor()
-    f = obj.fact(n)
-    print("Factorial is of", n, "is", f)
-    n -= 1
+def Fact2():
+  n = int(input("Enter a number: "))
+  while n >= 1:
+      obj = Factor()
+      f = obj.fact(n)
+      print("Factorial is of", n, "is", f)
+      n -= 1
