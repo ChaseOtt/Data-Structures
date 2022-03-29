@@ -7,6 +7,9 @@ def trunk(n):
             print('      ', end=' ')
         print('***')
 
-tree(15)
-trunk(3)
-print("        Here is the Tree.")
+
+
+def stuff():
+  tree(15)
+  trunk(3)
+  print("        Here is the Tree.")
