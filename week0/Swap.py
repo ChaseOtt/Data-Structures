@@ -1,4 +1,4 @@
-class swap:
+def Swap():
     def yah(self, ah):
         print(self, ah)
         if self < ah:
@@ -11,3 +11,5 @@ class swap:
 
     a, b = yah(int(input("Big number: ")), int(input("Small Num: ")))
     print(a, b)
+
+
