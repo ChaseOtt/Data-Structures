@@ -1,5 +1,3 @@
-{% include nav.html %}
-
 # Chase O - TRI 3 CSP 
 
 
