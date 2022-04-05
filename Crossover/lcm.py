@@ -16,6 +16,6 @@ def lcmTest():
     if x < 0 or y < 0:
       raise ValueError
     else:
-      print(lcm(x,y))
+      print("The Lowest Common Multiple of", x, "and", y, "is", lcm(x,y))
   except ValueError:
     print("Please only input values greater than 0.")
