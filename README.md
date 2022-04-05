@@ -1,5 +1,3 @@
-{% include _config.yml %}
-
 # Chase O - TRI 3 CSP 
 
 
