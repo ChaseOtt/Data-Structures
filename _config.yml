@@ -1,0 +1,7 @@
+remote_theme: daattali/beautiful-jekyll@5.0.0
+
+navbar-links:
+  Home: "/"
+  TPT Notes: "/cbnoteshome"
+  Create Task: "/createtask"
+  Python Project: "/python"
