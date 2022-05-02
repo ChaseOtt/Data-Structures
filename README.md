@@ -13,7 +13,7 @@
 - [Week 2](https://github.com/ChaseOtt/Data-Structures/issues/4)
 - [Week 3](https://github.com/ChaseOtt/Data-Structures/issues/5)
 - [Week 4](https://github.com/ChaseOtt/Data-Structures/issues/7)
-- [Week 5](weeeek5)
+- [Week 5](Weeeek5)
 
 
 
