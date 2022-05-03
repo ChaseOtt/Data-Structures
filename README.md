@@ -14,7 +14,7 @@
 - [Week 3](https://github.com/ChaseOtt/Data-Structures/issues/5)
 - [Week 4](https://github.com/ChaseOtt/Data-Structures/issues/7)
 - [Week 5](Weeeek5)
-
+- [Week 6](Weeeek6)
 
 
 ### Plan
