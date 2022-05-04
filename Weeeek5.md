@@ -21,6 +21,7 @@ I chose answer B. This was wrong because parallel computing solutions are still 
 ### Question 50
 I chose answer B. However the correct answer was answer D. The reason it was D is that you can also find the increase in total points per student.
 
+## Score
 ![image](https://user-images.githubusercontent.com/89167167/166317653-9a647d18-2329-4175-b302-23f847ce3d0e.png)
 
 
