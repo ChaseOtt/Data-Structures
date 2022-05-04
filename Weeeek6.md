@@ -35,6 +35,7 @@ I chose A, the correct answer was B. This is because A was an example of an asym
 ### Question 47
 I chose A and B, the correct answer was A and D. This is because D was correct, it sets bonus to 0 when the score is under 50, etc.
 
+## Score
 ![image](https://user-images.githubusercontent.com/89167167/166317653-9a647d18-2329-4175-b302-23f847ce3d0e.png)
 
 
